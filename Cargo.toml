@@ -1,0 +1,11 @@
+[package]
+name = "rust-proyect"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ferris-says = "0.3.1"
+salvo = { version = "0.80.0" }
+tokio = { version = "1", features = ["macros"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
